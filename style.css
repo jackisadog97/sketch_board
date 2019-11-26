@@ -1,24 +1,24 @@
 html{
-    background-image: linear-gradient(45deg,#211F1F,#B0AFAF);
+    background-color: lightsteelblue;
 }
-
 .header{
     text-align: center;
 }
 .grid_container{
     display: grid;
-    background: black;    
+    background: black;
+    width: 700px;
+    height: 700px;    
 }
-.flex{
-    display: flex;
-    flex: 1;
-    align-items: center;
-    justify-content: center;
-}
+
 .grid_item{
     background-color: white;
     text-align: center;
-    width: 50px;
-    height: 50px;
     border: 1px solid black;
+}
+.house{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 700px;
 }
