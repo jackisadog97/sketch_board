@@ -49,7 +49,7 @@ newGrid.addEventListener("click",() => {
         first = container.firstChild;
     }
     const colour = document.querySelector("#color");
-    colour.value = "black";
+    colour.value = "#000000";
     makeGrid(size);
 });
 
