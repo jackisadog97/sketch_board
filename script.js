@@ -31,7 +31,7 @@ const reset = document.querySelector("#reset");
 reset.addEventListener("click",() => {
     const black_grids = document.querySelectorAll(".grid_item");
     black_grids.forEach((grid) => {
-        grid.style.background = "white";
+        grid.style.background = "#ffffff";
     });
 
 });
