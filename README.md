@@ -5,4 +5,5 @@ use the colour box to select the color left in the boxes
 
 link to working project - https://jackisadog97.github.io/sketch_board/
 
-!!When selecting custom colours for the first time, you must choose a basic colour first!!
+NOTE FOR CHROME USERS
+--When selecting custom colours for the first time, you must choose a basic colour first!!
