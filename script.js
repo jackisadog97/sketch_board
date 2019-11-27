@@ -33,6 +33,7 @@ reset.addEventListener("click",() => {
     black_grids.forEach((grid) => {
         grid.style.background = "white";
     });
+
 });
 
 const newGrid = document.querySelector("#newGrid");
@@ -47,6 +48,8 @@ newGrid.addEventListener("click",() => {
         first.remove();
         first = container.firstChild;
     }
+    const colour = document.querySelector("#color");
+    colour.value = "black";
     makeGrid(size);
 });
 
