@@ -1,8 +1,5 @@
 window.onload = makeGrid(16);
 
-
-
-
 function makeGrid(default_size){
     const container = document.querySelector(".grid_container");
     let cols = container.style.gridTemplateColumns = `repeat(${default_size}, 1fr)`;
@@ -14,7 +11,7 @@ function makeGrid(default_size){
             container.appendChild(div);
         }
         addHoverEffect();
-    
+
 }
 
 
@@ -55,5 +52,3 @@ newGrid.addEventListener("click",() => {
 
 const colour = document.querySelector("#color");
 colour.addEventListener("input", () => addHoverEffect(colour.value));
- 
-
